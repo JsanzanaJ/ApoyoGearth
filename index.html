@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Portafolio minimalista de una persona especialista en datos, geografía, análisis geográfico y ciencia de datos."
+    />
+    <title>Portafolio | Datos & Geografía</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" aria-label="Encabezado principal">
+      <nav class="nav" aria-label="Navegación principal">
+        <a class="brand" href="#inicio" aria-label="Ir al inicio">GeoData</a>
+        <div class="nav-links">
+          <a href="#perfil">Perfil</a>
+          <a href="#servicios">Servicios</a>
+          <a href="#proyectos">Proyectos</a>
+          <a href="#contacto">Contacto</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="inicio">
+      <section class="hero section-grid" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Análisis geográfico · datos · ciencia de datos</p>
+          <h1 id="hero-title">Transformo datos territoriales en decisiones claras.</h1>
+          <p class="hero-text">
+            Portafolio de especialista en análisis geográfico, visualización de datos,
+            automatización de procesos y ciencia de datos aplicada a territorio,
+            ambiente, movilidad y planificación.
+          </p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#proyectos">Ver proyectos</a>
+            <a class="button button-ghost" href="#contacto">Trabajemos juntos</a>
+          </div>
+        </div>
+        <aside class="hero-card" aria-label="Resumen profesional">
+          <div class="map-orbit" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <dl class="metrics">
+            <div>
+              <dt>+6</dt>
+              <dd>áreas de análisis territorial</dd>
+            </div>
+            <div>
+              <dt>GIS</dt>
+              <dd>mapas, capas, geoprocesos</dd>
+            </div>
+            <div>
+              <dt>Python</dt>
+              <dd>automatización y modelos</dd>
+            </div>
+          </dl>
+        </aside>
+      </section>
+
+      <section id="perfil" class="section section-grid" aria-labelledby="perfil-title">
+        <div>
+          <p class="eyebrow">Perfil</p>
+          <h2 id="perfil-title">Datos con contexto espacial.</h2>
+        </div>
+        <div class="content-block">
+          <p>
+            Combino pensamiento geográfico, estadística, programación y diseño de
+            visualizaciones para convertir información dispersa en productos simples,
+            reproducibles y accionables.
+          </p>
+          <ul class="tag-list" aria-label="Habilidades principales">
+            <li>QGIS / ArcGIS</li>
+            <li>Python</li>
+            <li>SQL</li>
+            <li>GeoPandas</li>
+            <li>Dashboards</li>
+            <li>Machine learning</li>
+            <li>Cartografía web</li>
+            <li>ETL geoespacial</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="servicios" class="section" aria-labelledby="servicios-title">
+        <div class="section-heading">
+          <p class="eyebrow">Servicios</p>
+          <h2 id="servicios-title">Soluciones minimalistas, medibles y listas para usar.</h2>
+        </div>
+        <div class="cards three-columns">
+          <article class="card">
+            <span class="card-number">01</span>
+            <h3>Análisis geográfico</h3>
+            <p>
+              Diagnóstico territorial, cruces de capas, áreas de influencia,
+              accesibilidad, riesgo y priorización espacial.
+            </p>
+          </article>
+          <article class="card">
+            <span class="card-number">02</span>
+            <h3>Análisis de datos</h3>
+            <p>
+              Limpieza, modelado, indicadores, tableros ejecutivos y reportes
+              reproducibles para equipos técnicos y directivos.
+            </p>
+          </article>
+          <article class="card">
+            <span class="card-number">03</span>
+            <h3>Ciencia de datos</h3>
+            <p>
+              Modelos predictivos, segmentación, detección de patrones y pipelines
+              que integran datos espaciales y no espaciales.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="proyectos" class="section" aria-labelledby="proyectos-title">
+        <div class="section-heading">
+          <p class="eyebrow">Proyectos destacados</p>
+          <h2 id="proyectos-title">Trabajo reciente enfocado en territorio y evidencia.</h2>
+        </div>
+        <div class="project-list">
+          <article class="project-card">
+            <div>
+              <p class="project-type">Mapa interactivo</p>
+              <h3>Priorización de zonas críticas</h3>
+            </div>
+            <p>
+              Integración de capas ambientales, infraestructura y variables sociales
+              para identificar puntos de intervención con mayor impacto.
+            </p>
+            <span>GeoPandas · Folium · QGIS</span>
+          </article>
+          <article class="project-card">
+            <div>
+              <p class="project-type">Dashboard</p>
+              <h3>Indicadores territoriales automatizados</h3>
+            </div>
+            <p>
+              Pipeline de datos para actualizar métricas comunales, series temporales
+              y visualizaciones listas para la toma de decisiones.
+            </p>
+            <span>Python · SQL · Power BI</span>
+          </article>
+          <article class="project-card">
+            <div>
+              <p class="project-type">Modelo analítico</p>
+              <h3>Predicción de demanda espacial</h3>
+            </div>
+            <p>
+              Modelo de ciencia de datos para estimar patrones de uso del territorio,
+              detectar clusters y orientar planificación operativa.
+            </p>
+            <span>Scikit-learn · PostGIS · Raster</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section quote-section" aria-label="Propuesta de valor">
+        <blockquote>
+          “La mejor cartografía no solo muestra dónde ocurren las cosas: explica por qué
+          importan y qué decisión viene después.”
+        </blockquote>
+      </section>
+
+      <section id="contacto" class="section contact" aria-labelledby="contacto-title">
+        <div>
+          <p class="eyebrow">Contacto</p>
+          <h2 id="contacto-title">¿Tienes datos, mapas o una pregunta territorial?</h2>
+        </div>
+        <div class="contact-card">
+          <p>
+            Escríbeme para convertir tus datos geográficos en análisis, mapas,
+            dashboards o modelos claros y mantenibles.
+          </p>
+          <a class="button button-primary" href="mailto:hola@geodata.dev">hola@geodata.dev</a>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
