@@ -2,6 +2,24 @@
 
 Este repositorio implementa un **MVP en Python** para procesar un archivo exportado del mapa de proyectos sometidos al SEIA, calcular un riesgo simple y generar salidas tabulares y visuales.
 
+
+## Portafolio minimalista
+
+Este repositorio también incluye una landing page estática para un perfil profesional orientado a datos, geografía, análisis geográfico y ciencia de datos.
+
+Archivos principales:
+
+- `index.html`: estructura semántica del portafolio.
+- `styles.css`: sistema visual minimalista, responsive y centrado en contenido.
+
+Para verlo localmente:
+
+```bash
+python3 -m http.server 8000
+```
+
+Luego abre `http://localhost:8000` en el navegador.
+
 ## Qué genera
 
 Al ejecutar el pipeline se crean:
